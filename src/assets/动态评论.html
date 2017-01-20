@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">    
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <meta name="format-detection" content="telephone=yes">
+        <meta content="no-transform" http-equiv="Cache-Control">
+        <meta content="no-siteapp" http-equiv="Cache-Control">
+        <meta name="msapplication-tap-highlight" content="no">
+        <title>动态评论</title>
+        <link type="text/css" rel="stylesheet" href="css/main.min.css?rev=@@hash">
+        <script>
+   (function (doc, win) {
+      var docEl = doc.documentElement,
+        resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+        recalc = function () {
+          var clientWidth = docEl.clientWidth;
+          if (!clientWidth) return;
+          if (clientWidth > 750){
+            clientWidth = 750;
+          }
+          docEl.style.fontSize = clientWidth / 7.5+ 'px';
+        };
+      if (!doc.addEventListener) return;
+      recalc();
+    })(document, window);
+</script>
+        <style type="text/css">
+            body{
+                background: #fff;
+            }
+        </style>
+    </head>
+    
+    <body>    
+        <header class="comment-header">
+            <a class="comment-cancel" href="#">取消</a>
+            <span class="comment-title">发评论</span>
+            <span class="comment-submit">发表</span>
+        </header>
+        <div class="comment-textarea">
+            <textarea placeholder="写评论..."></textarea>
+        </div>
+    </body>
+    <script type="text/javascript" src="js/zepto.min.js?rev=@@hash"></script>
+    <script type="text/javascript" src="js/public.js?rev=@@hash"></script>
+    <script type="text/javascript">
+        lyBtn.initialize();
+    </script>
+</html>
