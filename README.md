@@ -1,26 +1,24 @@
-# cxl
-
-> A Vue.js project
+依赖  Vue-cli 脚手架搭建的单页面demo
 
 ## Build Setup
 
 ``` bash
-# install dependencies
+# 更新依赖
 npm install
 
-# serve with hot reload at localhost:8080
+# 启动热更新服务器 localhost:8080
 npm run dev
 
-# build for production with minification
+# 打包
 npm run build
 
-# run unit tests
+# 运行单元测试
 npm run unit
 
-# run e2e tests
+# 多端测试
 npm run e2e
 
-# run all tests
+# 运行所有测试
 npm test
 ```
 
