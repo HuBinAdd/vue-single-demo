@@ -1,25 +1,24 @@
-ÒÀÀµ  Vue-cli ½ÅÊÖ¼Ü´î½¨µÄµ¥Ò³Ãædemo
+ä¾èµ–  Vue-cli è„šæ‰‹æ¶æ­å»ºçš„å•é¡µé¢demo
 
 ## Build Setup
 
 ``` bash
-# ¸üĞÂÒÀÀµ
+# æ›´æ–°ä¾èµ–
 npm install
 
-# Æô¶¯ÈÈ¸üĞÂ·şÎñÆ÷ localhost:8080
+# å¯åŠ¨çƒ­æ›´æ–°æœåŠ¡å™¨ localhost:8080
 npm run dev
 
-# ´ò°ü
+# æ‰“åŒ…
 npm run build
 
-# ÔËĞĞµ¥Ôª²âÊÔ
+# è¿è¡Œå•å…ƒæµ‹è¯•
 npm run unit
 
-# ¶à¶Ë²âÊÔ
+# å¤šç«¯æµ‹è¯•
 npm run e2e
 
-# ÔËĞĞËùÓĞ²âÊÔ
+# è¿è¡Œæ‰€æœ‰æµ‹è¯•
 npm test
 ```
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
