@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="format-detection" content="telephone=yes">
+    <meta content="no-transform" http-equiv="Cache-Control">
+    <meta content="no-siteapp" http-equiv="Cache-Control">
+    <meta name="msapplication-tap-highlight" content="no">
+    <title>用户注册</title>
+    <link type="text/css" rel="stylesheet" href="css/main.min.css?rev=@@hash"> <script>
+   (function (doc, win) {
+      var docEl = doc.documentElement,
+        resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+        recalc = function () {
+          var clientWidth = docEl.clientWidth;
+          if (!clientWidth) return;
+          if (clientWidth > 750){
+            clientWidth = 750;
+          }
+          docEl.style.fontSize = clientWidth / 7.5+ 'px';
+        };
+      if (!doc.addEventListener) return;
+      recalc();
+    })(document, window);
+</script>
+    <style type="text/css">
+    .main-fiex {
+        padding-top: calc(.88rem + 1px);
+    }
+    </style>
+</head>
+
+<body>
+    <div class="header-title">
+        <a class="weix-logo-index" href="#"><i class="icon-logo-qw iconfont"></i></a>
+        <a class="weix-xuec" href="#">用户注册</a>
+        <i class="iconfont icon-header-ry"></i>
+    </div>
+    <div class="main-fiex">
+        <div class="register-input">
+            <i class="iconfont icon-login-phone"></i>
+            <input type="number" name="" placeholder="请输入手机号">
+        </div>
+        <div class="register-input code">
+            <i class="iconfont icon-login-yanz"></i>
+            <input type="text" name="" placeholder="请输入验证码">
+            <span class="btn-code">发送验证码</span>
+        </div>
+        <div class="register-input">
+            <i class="iconfont icon-login-pwd"></i>
+            <input type="password" name="" placeholder="请输入密码">
+        </div>
+        <div class="register-input">
+            <i class="iconfont icon-login-pwd"></i>
+            <input type="password" name="" placeholder="请输入密码">
+        </div>
+        <div class="register-btn">立即注册</div>
+    </div>
+</body>
+<script type="text/javascript" src="js/zepto.min.js?rev=@@hash"></script>
+<script type="text/javascript" src="js/public.js?rev=@@hash"></script>
+<script type="text/javascript">
+    verifyCode.initialize();
+</script>
+</html>
